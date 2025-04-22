@@ -5,4 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(CPPLeetcode main.cpp
         src/Leetcode/longest_valid_parentheses.cpp
-        src/headers/longest_valid_parentheses.h)
+        src/headers/longest_valid_parentheses.h
+        src/Leetcode/remove_duplicates_from_sorted_list.cpp
+        src/headers/remove_duplicates_from_sorted_list.h
+        src/helper/ListNode.h)
