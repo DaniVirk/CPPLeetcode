@@ -1,6 +1,12 @@
 ﻿#include <iostream>
 
+#include "src/headers/longest_valid_parentheses.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    longest_valid_parentheses lvp;
+
+    const int test = lvp.longestValidParentheses(")()())");
+
+    std::cout << test << std::endl;
     return 0;
 }
