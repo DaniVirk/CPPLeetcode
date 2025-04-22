@@ -1,4 +1,4 @@
-﻿#include "headers/longest_valid_parentheses.h"
+﻿#include "../headers/longest_valid_parentheses.h"
 #include<bits/stdc++.h>
 
 int longest_valid_parentheses::longestValidParentheses(const std::string &s) {
