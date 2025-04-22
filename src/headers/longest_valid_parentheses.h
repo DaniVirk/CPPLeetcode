@@ -5,7 +5,7 @@
 
 class longest_valid_parentheses {
     public:
-    int longestValidParentheses(std::string s);
+    int longestValidParentheses(const std::string &s);
 };
 
 
