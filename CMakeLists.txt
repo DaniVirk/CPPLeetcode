@@ -10,4 +10,6 @@ add_executable(CPPLeetcode main.cpp
         src/headers/remove_duplicates_from_sorted_list.h
         src/helper/ListNode.h
         src/Leetcode/find_center_of_star_graph.cpp
-        src/headers/find_center_of_star_graph.h)
+        src/headers/find_center_of_star_graph.h
+        src/Leetcode/find_the_town_judge.cpp
+        src/headers/find_the_town_judge.h)
