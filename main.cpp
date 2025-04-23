@@ -1,19 +1,17 @@
 ﻿#include <iostream>
 
+#include "src/headers/find_center_of_star_graph.h"
 #include "src/headers/remove_duplicates_from_sorted_list.h"
 #include "src/helper/ListNode.h"
 
 using std::cout;
 
 int main() {
-    remove_duplicates_from_sorted_list rdfsl;
 
-    auto* test = new ListNode(1);
-    test->next = new ListNode(1);
-    test->next->next = new ListNode(2);
-    test->next->next->next = new ListNode(3);
-    test->next->next->next->next = new ListNode(3);
+    find_center_of_star_graph test;
 
-    cout << rdfsl.deleteDuplicates(test);
+    std::vector<std::vector<int>> edges = {{1, 2}, {2, 3}, {4, 2}, {5,2}, {6,2}};
+
+    cout << test.findCenter(edges) << std::endl;
     return 0;
 }
