@@ -1,17 +1,15 @@
-﻿#include <iostream>
-
-#include "src/headers/find_center_of_star_graph.h"
-#include "src/headers/find_the_town_judge.h"
-#include "src/headers/remove_duplicates_from_sorted_list.h"
-#include "src/helper/ListNode.h"
+﻿#include <chrono>
+#include <iostream>
 
 using std::cout;
 
 int main() {
 
-    find_the_town_judge test;
-    std::vector<std::vector<int>> edges = {{1, 3}, {2, 3}, {3, 1}};
+    auto start = std::chrono::high_resolution_clock::now();
 
-    cout << test.findJudge(3, edges) << std::endl;
+    auto end = std::chrono::high_resolution_clock::now();
+
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
+    std::cout << "Execution time: " << duration.count() << " milliseconds" << std::endl;
     return 0;
 }

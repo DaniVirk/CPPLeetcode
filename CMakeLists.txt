@@ -12,4 +12,6 @@ add_executable(CPPLeetcode main.cpp
         src/Leetcode/find_center_of_star_graph.cpp
         src/headers/find_center_of_star_graph.h
         src/Leetcode/find_the_town_judge.cpp
-        src/headers/find_the_town_judge.h)
+        src/headers/find_the_town_judge.h
+        src/Leetcode/find_first_and_last_position_of_element_in_sorted_array.cpp
+        src/headers/find_first_and_last_position_of_element_in_sorted_array.h)
