@@ -16,4 +16,6 @@ add_executable(CPPLeetcode main.cpp
         src/Leetcode/find_first_and_last_position_of_element_in_sorted_array.cpp
         src/headers/find_first_and_last_position_of_element_in_sorted_array.h
         src/Leetcode/reverse_integer.cpp
-        src/headers/reverse_integer.h)
+        src/headers/reverse_integer.h
+        src/Leetcode/merge_two_sorted_lists.cpp
+        src/headers/merge_two_sorted_lists.h)
