@@ -18,4 +18,6 @@ add_executable(CPPLeetcode main.cpp
         src/Leetcode/reverse_integer.cpp
         src/headers/reverse_integer.h
         src/Leetcode/merge_two_sorted_lists.cpp
-        src/headers/merge_two_sorted_lists.h)
+        src/headers/merge_two_sorted_lists.h
+        src/Leetcode/merge_k_sorted_lists.cpp
+        src/headers/merge_k_sorted_lists.h)
