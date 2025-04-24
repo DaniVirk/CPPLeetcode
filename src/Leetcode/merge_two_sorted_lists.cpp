@@ -2,7 +2,7 @@
 #include "../helper/ListNode.h"
 
 ListNode *merge_two_sorted_lists::mergeTwoLists(ListNode *list1, ListNode *list2) {
-    if (list1 == nullptr && list2 == nullptr) return nullptr;z
+    if (list1 == nullptr && list2 == nullptr) return nullptr;
     if (list1 == nullptr && list2 != nullptr) return list2;
     if (list1 != nullptr && list2 == nullptr) return list1;
 
