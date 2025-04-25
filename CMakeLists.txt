@@ -23,4 +23,6 @@ add_executable(CPPLeetcode main.cpp
         src/headers/merge_k_sorted_lists.h
         src/Leetcode/linked_list_cycle.cpp
         src/headers/linked_list_cycle.h
+        src/Leetcode/find_the_difference.cpp
+        src/headers/find_the_difference.h
 )
