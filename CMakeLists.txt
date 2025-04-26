@@ -34,4 +34,6 @@ add_executable(CPPLeetcode main.cpp
         src/Leetcode/single_element_in_a_sorted_array.cpp
         src/headers/single_element_in_a_sorted_array.h
         src/helper/TreeNode.h
+        src/Leetcode/average_value_of_even_numbers_that_are_divisible_by_three.cpp
+        src/headers/average_value_of_even_numbers_that_are_divisible_by_three.h
 )
