@@ -25,4 +25,6 @@ add_executable(CPPLeetcode main.cpp
         src/headers/linked_list_cycle.h
         src/Leetcode/find_the_difference.cpp
         src/headers/find_the_difference.h
+        src/Leetcode/first_unique_character_in_a_string.cpp
+        src/headers/first_unique_character_in_a_string.h
 )
