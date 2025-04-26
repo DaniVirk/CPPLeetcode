@@ -29,4 +29,6 @@ add_executable(CPPLeetcode main.cpp
         src/headers/first_unique_character_in_a_string.h
         src/Leetcode/longest_substring_without_repeating_characters.cpp
         src/headers/longest_substring_without_repeating_characters.h
+        src/Leetcode/minimum_rounds_to_complete_all_tasks.cpp
+        src/headers/minimum_rounds_to_complete_all_tasks.h
 )
