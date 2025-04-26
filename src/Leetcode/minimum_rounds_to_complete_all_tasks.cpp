@@ -7,9 +7,13 @@ using std::sort;
 
 int minimum_rounds_to_complete_all_tasks::minimumRounds(vector<int> &tasks) {
     std::unordered_map<int, int> t_map;
-    sort(tasks.begin(), tasks.end());
-    for (int task : tasks) {
-        t_map[task]++;
+
+    for (int & task : tasks) {
+        if (t_map.contains(task)) {
+            t_map[task]++;
+        } else {
+            t_map.insert({task, 1});
+        }
     }
 
     int result = 0;
