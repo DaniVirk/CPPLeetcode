@@ -27,4 +27,6 @@ add_executable(CPPLeetcode main.cpp
         src/headers/find_the_difference.h
         src/Leetcode/first_unique_character_in_a_string.cpp
         src/headers/first_unique_character_in_a_string.h
+        src/Leetcode/longest_substring_without_repeating_characters.cpp
+        src/headers/longest_substring_without_repeating_characters.h
 )
