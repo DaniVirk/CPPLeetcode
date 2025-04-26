@@ -31,4 +31,7 @@ add_executable(CPPLeetcode main.cpp
         src/headers/longest_substring_without_repeating_characters.h
         src/Leetcode/minimum_rounds_to_complete_all_tasks.cpp
         src/headers/minimum_rounds_to_complete_all_tasks.h
+        src/Leetcode/single_element_in_a_sorted_array.cpp
+        src/headers/single_element_in_a_sorted_array.h
+        src/helper/TreeNode.h
 )

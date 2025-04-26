@@ -1,5 +1,4 @@
-﻿// ListNode.h
-#ifndef LISTNODE_H
+﻿#ifndef LISTNODE_H
 #define LISTNODE_H
 
 struct ListNode {
