@@ -38,4 +38,6 @@ add_executable(CPPLeetcode main.cpp
         src/headers/average_value_of_even_numbers_that_are_divisible_by_three.h
         src/Leetcode/remove_nth_node_from_end_of_list.cpp
         src/headers/remove_nth_node_from_end_of_list.h
+        src/Leetcode/contains_duplicate.cpp
+        src/headers/contains_duplicate.h
 )
