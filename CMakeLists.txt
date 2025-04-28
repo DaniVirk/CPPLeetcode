@@ -40,4 +40,6 @@ add_executable(CPPLeetcode main.cpp
         src/headers/remove_nth_node_from_end_of_list.h
         src/Leetcode/contains_duplicate.cpp
         src/headers/contains_duplicate.h
+        src/Leetcode/valid_anagram.cpp
+        src/headers/valid_anagram.h
 )
